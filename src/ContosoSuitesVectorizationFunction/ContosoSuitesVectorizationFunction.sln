@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ContosoSuitesVectorizationFunction", "ContosoSuitesVectorizationFunction.csproj", "{3D0EDDF2-248A-4FE2-9959-5D9850EA53D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "obj", "obj", "{D66E59B0-9EEE-4D58-A85E-A222651530FC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Debug", "Debug", "{8AFE2987-E561-4509-88D4-734BC8A51079}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{B8C1647D-9157-4C2B-9861-1BA10F402253}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Debug\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{0A63D481-CBEB-4BF9-9DEF-ABED3EE24968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Release", "Release", "{975B648C-3161-44A3-84FC-B2442DE876F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net8.0", "net8.0", "{B6E3884F-9B93-4FDC-8C49-42BD171FF620}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkerExtensions", "obj\Release\net8.0\WorkerExtensions\WorkerExtensions.csproj", "{577073BA-1493-423C-B8A5-0F374E0C6A18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D0EDDF2-248A-4FE2-9959-5D9850EA53D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D0EDDF2-248A-4FE2-9959-5D9850EA53D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D0EDDF2-248A-4FE2-9959-5D9850EA53D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D0EDDF2-248A-4FE2-9959-5D9850EA53D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A63D481-CBEB-4BF9-9DEF-ABED3EE24968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A63D481-CBEB-4BF9-9DEF-ABED3EE24968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A63D481-CBEB-4BF9-9DEF-ABED3EE24968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A63D481-CBEB-4BF9-9DEF-ABED3EE24968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{577073BA-1493-423C-B8A5-0F374E0C6A18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{577073BA-1493-423C-B8A5-0F374E0C6A18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{577073BA-1493-423C-B8A5-0F374E0C6A18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{577073BA-1493-423C-B8A5-0F374E0C6A18}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8AFE2987-E561-4509-88D4-734BC8A51079} = {D66E59B0-9EEE-4D58-A85E-A222651530FC}
+		{B8C1647D-9157-4C2B-9861-1BA10F402253} = {8AFE2987-E561-4509-88D4-734BC8A51079}
+		{0A63D481-CBEB-4BF9-9DEF-ABED3EE24968} = {B8C1647D-9157-4C2B-9861-1BA10F402253}
+		{975B648C-3161-44A3-84FC-B2442DE876F3} = {D66E59B0-9EEE-4D58-A85E-A222651530FC}
+		{B6E3884F-9B93-4FDC-8C49-42BD171FF620} = {975B648C-3161-44A3-84FC-B2442DE876F3}
+		{577073BA-1493-423C-B8A5-0F374E0C6A18} = {B6E3884F-9B93-4FDC-8C49-42BD171FF620}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3546EDDA-013E-46F8-AF18-3B58872A9613}
+	EndGlobalSection
+EndGlobal
